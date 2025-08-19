@@ -11,7 +11,9 @@ This repository provides artifacts about LPG, and it also could help the communi
 Our in-orbit testbed consists of three main components:
 
 **LEO Satellite:** A custom-built academic LEO satellite equipped with two commodity servers (8-core ARM processors, 16 GB DDR4 RAM, 256 GB storage) as payload.
+
 **Ground Server:** A terrestrial server acting as the MNO, with an Intel Xeon Gold 6330 CPU and 256 GB of RAM.
+
 **User Equipment (UE):** Two commodity phones, a Xiaomi 14 Ultra and a Google Pixel 9 Pro, used for end-to-end testing.
 
 
@@ -34,6 +36,7 @@ Due to the lack of interactive shell access (e.g., SSH) in orbit, all procedures
 In [`Telemetry`](https://github.com/LPGSatellite/LPG/tree/main/telemetry), we provide the communication and measurement interface of the satellite payload. It contains:
 
 **Telecommand_Protocol.md & Telemetry_Specification.md:** The formal specifications for the remote control and telemetry data packets, detailing every field and data type. These definitions correspond directly to the data collected in our evaluation.
+
 **ReadPower.sh, ReadTemp.sh, etc.:** Shell scripts that interface with the onboard sensors to read real-time power and temperature data.
 
 ## Protocol Scripts

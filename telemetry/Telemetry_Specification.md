@@ -42,4 +42,3 @@ This document specifies the data format for the telemetry packet, corresponding 
 | **GPU** | GPU Power | 1 | `uint8` | The GPU power consumption. | 66 |
 | | GPU Temperature | 1 | `uint8` | The GPU temperature. | 67 |
 | **Custom Telemetry** | Reserved Field | 21 | - | Reserved for future use. | - |
-| **Reserved** | Reserved Field | 12 | - | Reserved for future use. | 100 |
